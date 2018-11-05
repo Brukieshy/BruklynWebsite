@@ -24,6 +24,9 @@ nav {
 nav a:hover {
   background-color: #125;
 }
+p {
+  font-family: "Lucida Console"
+}
 
 
 
