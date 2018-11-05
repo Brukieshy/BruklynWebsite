@@ -9,4 +9,7 @@ body {
 nav {
   background-color: #999999;
 }
+nav a:hover {
+  background-color: #125;
+}
 
