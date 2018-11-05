@@ -5,18 +5,21 @@ nav a {
   text-decoration: none;
   padding-left: 25px;
   padding-right: 25px;
+  border-radius: 25px;
 }
 body {
-    background-image: url("notebook-paper-background.jpg");
+    background-image: url("bg-notebook.jpg");
     background-repeat: no-repeat;
     background-size:cover;
-    padding-left: 5%;
+    padding-left: 17%;
     padding-right: 5%;
-    padding-top: 40px;
+    padding-top: 20px;
     
 }
 nav {
   background-color: #999999;
+  border-radius: 25px;
+  display: inline-block;
 }
 nav a:hover {
   background-color: #125;
