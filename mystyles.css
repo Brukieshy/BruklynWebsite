@@ -2,6 +2,9 @@ nav a {
   color: white;
   font-size: 160%;
   font-family: "Comic Sans MS", cursive, sans-serif;
+  text-decoration: none;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 body {
     background-color: #e6e6e6;
