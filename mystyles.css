@@ -10,6 +10,8 @@ body {
     background-image: url("notebook-paper-background.jpg");
     background-repeat: no-repeat;
     background-size:cover;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 nav {
   background-color: #999999;
