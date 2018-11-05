@@ -5,6 +5,7 @@ nav a {
   text-decoration: none;
   padding-left: 25px;
   padding-right: 25px;
+  padding-top: 40px;
 }
 body {
     background-image: url("notebook-paper-background.jpg");
