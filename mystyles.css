@@ -48,7 +48,7 @@ footer p a {
   padding-right: 2px;
   border-radius: 4px;
 }
-.typewriter p {
+.typewriter p {					/*fix it so that it types it out line by line*/
   font-family: Lucida Console; 
   overflow: hidden; 
   border-right: .15em black;
