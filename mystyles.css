@@ -56,7 +56,7 @@ footer p a {
 }
 @media only screen and (min-width: 599px) {
  .typewriter p {					
-  font-family: Lucida Console; 
+  font-family: Lucida Console;               /*fix this code so that the typing animation types the paragraph line by line*/
   overflow: hidden; 
   border-right: .15em black;
   white-space: nowrap; 
