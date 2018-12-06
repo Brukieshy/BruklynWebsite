@@ -66,4 +66,9 @@ footer p a {
   to { width: 100% }
 }
 
-
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+  nav a {
+   display: block;
+  }
+}
