@@ -71,4 +71,13 @@ footer p a {
   nav a {
    display: block;
   }
+  p a {
+   display: block;
+  }
+  body a {
+   display: block;
+  }
+  footer a {
+	display: block;  
+  }
 }
