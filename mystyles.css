@@ -48,7 +48,14 @@ footer p a {
   padding-right: 2px;
   border-radius: 4px;
 }
-.typewriter p {					/*fix it so that it types it out line by line*/
+
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+@media only screen and (min-width: 599px) {
+ .typewriter p {					
   font-family: Lucida Console; 
   overflow: hidden; 
   border-right: .15em black;
@@ -59,17 +66,14 @@ footer p a {
   	typing 3.5s steps(30, end),
  	blinking-cursor .5s step-end infinite;
 }
-
-
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-
+}	
 @media only screen and (max-width: 600px) {
-  /* For mobile phones: */
+  
   nav a {
-   display: block;
+   display: block; 
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 30px;	  
   }
   p a {
    display: block;
