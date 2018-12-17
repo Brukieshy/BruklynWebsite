@@ -94,3 +94,47 @@ footer p a {
    color: white;
    text-align: center;
 }
+<<<<<<< Updated upstream
+=======
+@media only screen and (min-width: 599px) {
+ .typewriter p {					
+  font-family: Lucida Console;               /*fix this code so that the typing animation types the paragraph line by line*/
+  overflow: hidden; 
+  border-right: .15em black;
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: .15em; 
+  animation: 
+  	typing 3.5s steps(30, end),
+ 	blinking-cursor .5s step-end infinite;
+}
+}	
+@media only screen and (max-width: 600px) {
+  
+  nav a {
+   display: block; 
+  padding-left: 2px;
+  padding-right: 2px;
+  border-radius: 25px;
+  }
+  p a {
+   display: block;
+  }
+  body a {
+   display: block;
+  }
+  footer a {
+	display: block;  
+  }
+  	
+}
+aside {
+	
+}
+footer {
+	color:#125
+}
+
+
+
+>>>>>>> Stashed changes
